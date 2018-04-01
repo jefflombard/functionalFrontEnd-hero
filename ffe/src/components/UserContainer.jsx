@@ -5,7 +5,10 @@ import UserCard from './UserCard.jsx'
 
 const UserContainer = props => {
   const users = props.users.map( (user,index) => {
-    const {firstName, lastName, email} = user;
+    const {email} = user;
+    const firstName = user.name.first;
+    const lastName = user.name.last;
+    
     return (
         <UserCard
           key={index}
