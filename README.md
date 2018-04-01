@@ -136,3 +136,4 @@ A functional frontend lets you cover the majority of your work with unit testing
 - [Dan Abramov Explains Redux](https://egghead.io/courses/getting-started-with-redux)
 - [FunFunFunction](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
 - [Stephen Grider on Udemy](https://www.udemy.com/user/sgslo/)
+- [Exploring ES6](http://exploringjs.com/es6/)
