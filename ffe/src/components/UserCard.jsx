@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './UserCard.css'
 
 const UserCard = props => {
   return (
-    <div>
-      <p>First Name: {this.props.firstName}</p>
-      <p>Last Name: {this.props.lastName}</p>
-      <p>Email: {this.props.email}</p>
+    <div className="user-card">
+      <p>First Name: {props.firstName}</p>
+      <p>Last Name: {props.lastName}</p>
+      <p>Email: {props.email}</p>
     </div>
   )
 }

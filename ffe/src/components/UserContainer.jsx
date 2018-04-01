@@ -1,13 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './UserContainer.css';
 
-class Table extends Component {
-  render() {
+import UserCard from './UserCard.jsx'
+
+const UserContainer = props => {
+  const users = props.users.map( (user,index) => {
+    const {firstName, lastName, email} = user;
     return (
-      <div className="user-container">
-
-      </div>
+        <UserCard
+          key={index}
+          firstName={firstName}
+          lastName={lastName}
+          email={email}
+        />
     );
-  }
+  });
+
+  return (
+    <div className='user-container'>
+      {users}
+    </div>
+  )
 }
 
-export default Table;
+export default UserContainer;
