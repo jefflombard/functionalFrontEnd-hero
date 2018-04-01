@@ -104,7 +104,7 @@ Read More: [Dumb Components and Smart Components](https://medium.com/@thejasonfi
 
 Yes, this approach gets hairy if you need to share state.
 
-#### Dispatch a Redux action and Manage State with Redux
+#### Dispatch a Redux action and Manage State with Redux (`03-redux`)
 
 ##### What is Redux?
 
